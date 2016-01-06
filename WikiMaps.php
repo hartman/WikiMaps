@@ -67,7 +67,7 @@ $wgHooks['BeforePageDisplay'][]  = 'WikiMapsHooks::onBeforePageDisplay';
 // Global variables
 $wgWikiMapsTileServer = 'https://maps.wikimedia.org/osm-intl/{z}/{x}/{y}.png';
 $wgWikiMapsAttribution = 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://opendatacommons.org/licenses/odbl/">ODBL</a>, Imagery © <a href="https://wikimediafoundation.org">Wikimedia</a>';
-$wgWikiMapsImagePath = '//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.2/images/';
+$wgWikiMapsImagePath = '//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/';
 
 // ResourceLoader modules
 /**
