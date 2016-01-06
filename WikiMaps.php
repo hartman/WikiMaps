@@ -65,8 +65,8 @@ $wgHooks['ParserFirstCallInit'][] = 'WikiMapsHooks::onWikiMapParserInit';
 $wgHooks['BeforePageDisplay'][]  = 'WikiMapsHooks::onBeforePageDisplay';
 
 // Global variables
-$wgWikiMapsTileServer = 'http://{s}.tiles.mapbox.com/v3/jdlrobson.i6l7dh8b/{z}/{x}/{y}.png';
-$wgWikiMapsAttribution = 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://opendatacommons.org/licenses/odbl/">ODBL</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>';
+$wgWikiMapsTileServer = 'https://maps.wikimedia.org/osm-intl/{z}/{x}/{y}.png';
+$wgWikiMapsAttribution = 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://opendatacommons.org/licenses/odbl/">ODBL</a>, Imagery © <a href="https://wikimediafoundation.org">Wikimedia</a>';
 $wgWikiMapsImagePath = '//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.2/images/';
 
 // ResourceLoader modules
