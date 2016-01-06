@@ -166,7 +166,7 @@
 					title: mw.config.get( 'wgPageName' ),
 					summary: 'Updated map via edit interface',
 					contentformat: 'application/json',
-					text: $.toJSON( this.toGeoJSON() ),
+					text: JSON.stringify( this.toGeoJSON() ),
 					contentmodel: 'GeoJSON'
 				};
 			if ( this.status.isDirty() ) {

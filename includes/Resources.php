@@ -13,7 +13,7 @@ $modules = array(
 	'wikimaps.view.scripts' => $wgWikiMapsBoilerplate + array(
 		'dependencies' => array(
 			'wikimaps.leaflet',
-			'jquery.json',
+			'json',
 		),
 		'messages' => array(
 			'wikimaps-special-map-saving',
